@@ -1,0 +1,119 @@
+@media(min-width: 1024px){
+    .tour_date_img{
+        height: 400px;
+    }
+    .member_item{
+        width: 100%;
+    }
+}
+
+@media(min-width: 740px) and (max-width: 1023px){
+    .tour_date_img{
+        height: 200px;
+    }
+    
+    .contact_country{
+        margin-left: 25px;
+    }
+    .contact_phone{
+        margin-left: 47px;
+    }
+    .contact_infor{
+        margin-top: 20px;
+    }
+    .contact_name{
+        line-height: 35px;
+    }
+}
+
+
+@media(max-width: 740px){
+
+    .header{
+        overflow: hidden;
+    }
+    .subnav{
+        position: initial;
+    }
+    .nav_item{
+        display: block;
+    }
+    .nav_item:first-child{ 
+        display: inline-block;
+    }
+    .search{
+        display: none;
+    }
+    .mobile_menu_btn{
+        display: block;
+    }
+    .text_description{
+        font-size: 14px;
+    }
+    .member_item{
+        display: block;
+    }
+    .about_text{
+        font-size: 12px;
+    }
+    .tour_date_noidung{
+        font-size: 12px;
+    }
+    .member_img{
+        width: 100%;
+        height: 300px;
+    }
+    .tour_date_country{
+        display: block;
+    }
+    .tour_date_list{
+        width: 100%;
+    }
+    .tour_date_img{
+        width: 100%;
+    }
+
+    .tour_date_noidung{
+        width: 90%;
+    }
+    .tour_date_list{
+        margin-bottom: 10px;
+    }
+
+    .contact_text{
+        margin-bottom: 20px;
+    }
+    
+    .contact_infor{
+        display: block;
+       
+    }
+    .contact_name{
+        margin-left: -70px;
+    }
+    .contact_country{
+        margin-left: 25px;
+    }
+    .contact_phone{
+        margin-left: 47px;
+    }
+    .contact_input{
+    margin: 0 auto;
+   }
+   .contact_email{
+    font-size: 11px;
+    margin-left: 115px;
+   }
+    .contact__input_name{
+        width: 352px;
+        margin-bottom: 10px;
+    }
+    .contact__input_email{
+        width: 352px;
+    }
+    .contact_send{
+        width: 80%;
+        text-align: center;
+    }
+    
+}

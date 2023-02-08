@@ -1,0 +1,547 @@
+.main{
+    width: 100%;
+}
+.header{
+    height: 46px;
+    background-color: #524f4f;
+    position:fixed;
+     top:0;
+     left:0; 
+     width:100%; 
+     height:50px;
+     z-index: 1;
+}
+
+.nav{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.nav_item{
+    display: inline-block;
+    position: relative;
+}
+
+.nav_item:hover .subnav{
+    display: block;
+}
+
+.subnav{ 
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    box-shadow: 2px 2px 5px #808080;
+    border-radius: 3px;
+    display: none;
+    min-width: 160px;
+}
+
+.nav_item1{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+.subnav_item1{
+    text-decoration: none;
+    color: white;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+.subnav_item1{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    color: black;
+}
+
+.nav_item:hover .nav_item1{
+    color: #000;
+    background-color: #ccc;
+}
+
+.nav_item .subnav_item:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+    
+}
+.slider_background_img{
+    width: 100%;
+
+}
+
+.mobile_menu_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    height: 50px;
+    padding: 0 21px;
+    display: none;
+}
+
+.search{
+    float: right;
+    height: 50px;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+.search:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+.mobile_menu_btn:hover{
+    background-color: #ccc;
+}
+
+.mobile_menu_btn:hover .menu_icon{
+    color: black;
+}
+
+.menu_icon,
+.search_icon{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+
+.text_content{
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.text_heading{
+    font-size: 40px;
+    color: red;
+    
+}
+
+.text_description{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    color: #e2dcdc;
+}
+
+.content{
+    background-color: rgb(226, 221, 221);
+    width: 100%;
+    
+}
+
+.content_section{
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    width: 80%;
+}
+
+.section_heading{
+    font-size: 30px;
+    margin:30px 0 20px 0;
+    font-weight: 600;
+    
+}
+
+.section_sub_heading{
+    margin-bottom: 20px;
+    font-style: italic;
+    opacity: 0.7;
+
+}
+
+.about_text{
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+.member_item{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;   
+    width: 100%;
+}
+
+.member_img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.tour_date{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.tour_date_header{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tour_date_content{
+    color: rgb(212, 212, 212);
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.tour_date_month{
+    background-color: white;
+    width: 80%; 
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tour_date_item{
+    background-color: white;
+    color: #524f4f;
+    margin: auto;
+    border: 1px solid rgb(206, 200, 200);
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+}
+
+.tour_date_item span{
+    background-color: #f44336;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    margin-left: 10px;
+}
+
+.tour_date_country{
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.tour_date_list{
+    background-color: #cac6c6;
+    border-right: 1px solid rgb(136, 136, 136);
+    width: 33.33%;
+    position: relative;
+    padding-bottom: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.tour_date_img{
+    width: 100%;
+    height: 330px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.tour_date_img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.tour_date_text{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.tour_date_day{
+    color: #524f4f;
+    padding: 0px 20px 20px 20px;
+}
+
+.tour_date_noidung{
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+
+.tour_date_ticket{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    width: 80px;
+    height: 15px;
+    margin: 0px 10px 10px 10px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.tour_date_ticket:hover{
+    background-color: #424141;
+    cursor: pointer;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal_container{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    animation: modalFadeIn ease 0.5s;
+    
+    z-index: 1000 !important;
+}
+
+.modal_header{
+    width: 100%;
+    max-width: calc(100%-32px);
+    color: white;
+    background-color: #008b7d;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.ti_close{
+    padding: 5px 5px 5px 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.modal_header_ticket{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 27px; 
+}
+
+.modal_label{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+}
+
+.modal_input{
+    margin: 10px  10px 10px 10px;
+    width: 97%;
+    font-size: 20px;
+    
+}
+
+.buy_tickets{
+    background-color: #008b7d;
+    text-align: center;
+    color: white;
+    width: 95%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.modal_help{
+    float: right;
+    margin: 15px 30px 20px 15px;
+}
+
+.contact{
+    position: relative;
+    width: 100%;
+    background-color: #cac6c6;
+}
+
+.contact_header{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 600;
+}
+
+.contact_infor{
+    display: flex;
+    width: 100%;
+    justify-content: center;;
+}
+
+.contact_text{
+    font-style: italic;
+    color: #424141;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact_nm{
+    margin: 10px 10px 10px 0px;
+}
+
+.contact_name{
+    width: 100%;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact_input{  
+    width: 100%;
+    text-align: center;
+}
+
+.contact__input_name{
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.contact_country{
+    margin-left: -10px;
+    font-size: 12px;
+
+}
+
+.contact_phone{
+    margin-left: 15px;
+    font-size: 12px;
+
+}
+
+.contact_phone_icon{
+    margin-right: 10px;
+
+}
+
+.contact_email{
+    margin-left: 130px;
+    font-size: 12px;
+}
+
+.contact__input_email{
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+
+}
+
+.contact__input_message{
+    height: 35px;
+    width: 355px;
+    margin-left: -11px;
+    border-radius: 5px;
+
+}
+
+.contact_send{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 22px;
+    margin: auto;
+    padding: 10px 0 5px 5px ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 10%;
+    text-align: center;
+}
+
+.contact_send:hover{
+    background-color: #ad9292;
+}
+
+.map_section img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #ccc;
+}
+
+.link_social{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.made_by{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.fab{
+    color: black;
+    padding-right: 10px;
+}
+
+.fab:hover{
+    color: #e62828;
+}
+
+.fas{
+    color: black;
+    padding-right: 10px ;
+}
+
+.fas:hover{
+    color: #e62828;
+}
+
+.fa:hover{
+    color: #e62828;
+}
+@keyframes modalFadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
